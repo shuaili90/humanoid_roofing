@@ -40,16 +40,16 @@
     {
       "label": "Dangerous",
       "value": "48.7",
-      "text": "fatal work injuries per 100,000 full-time roofers in 2024, against 3.3 for all workers.",
+      "text": "fatal work injuries per 100,000 full-time-equivalent roofers in 2024, against 3.3 for all workers.",
       "source": "https://www.bls.gov/charts/census-of-fatal-occupational-injuries/rate-and-number-of-fatal-work-injuries-in-selected-occupations.htm",
       "sourceName": "U.S. Bureau of Labor Statistics"
     },
     {
       "label": "Demanding",
-      "value": "88%",
-      "text": "of construction firms with craft openings report those positions are as hard or harder to fill than a year ago.",
-      "source": "https://www.agc.org/sites/default/files/users/user21902/2026%20Workforce%20Survey%20Analysis%20(4).pdf",
-      "sourceName": "AGC and NCCER 2026 Workforce Survey"
+      "value": "41%",
+      "text": "of U.S. single-family home builders report a shortage of roofing subcontractors, in a September 2026 survey.",
+      "source": "https://eyeonhousing.org/wp-content/uploads/2026/10/HMISeptember2026-Special-Questions-2.pdf",
+      "sourceName": "NAHB/Wells Fargo Housing Market Index, September 2026"
     }
   ]
 }

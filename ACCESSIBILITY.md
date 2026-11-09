@@ -1,5 +1,9 @@
 # Accessibility review — 18 October 2026
 
+## Roofer-specific Demanding figure — 9 November 2026
+
+At the author's request, the Demanding tile now cites a roofer-specific shortage instead of an all-craft construction figure: 41% of single-family home builders reported a serious or some shortage of roofing subcontractors in the NAHB/Wells Fargo Housing Market Index special questions for September 2026 (415 respondents). The Dangerous tile now says "full-time-equivalent", matching the BLS wording. All seven figures on the homepage were re-checked against their sources on this date: NHC's Ian report ($109.5 billion in Florida), USACE releases for Ian (more than 20,250 blue roofs) and Milton (8,296), O*NET roofers work context (73% repetitive motions, 97% outdoors in all weather), and the BLS 2024 fatal injury chart (48.7 versus 3.3).
+
 ## Shorter labels and compact citation — 4 November 2026
 
 At the author's request, the page title was changed, the formal title left the opening (it remains in the citation), and the caption under paper figure 1 was removed. That figure keeps its image alternative, and its full description and source moved to the media notes. The bubbles under the videos now only name the action. Statements that no nail is fired, that footage was not used for training, and that clips end before later falls or resets remain in the media notes, not beside the videos.
