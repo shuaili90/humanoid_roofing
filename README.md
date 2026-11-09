@@ -2,7 +2,7 @@
 
 Academic project page for **Learning Slope-Adaptive Whole-Body Locomotion for Humanoid Robots in Roofing Construction**, by Songyang Liu and Shuai Li. Content follows the unchanged arXiv:2609.20558v1 preprint.
 
-- [Website](https://cgchrfchscyrh.github.io/humanoid_roofing_webpage/)
+- [Website](https://cgchrfchscyrh.github.io/humanoid_roofing/)
 - [Preprint](https://arxiv.org/abs/2609.20558v1)
 - [Full-text HTML](https://arxiv.org/html/2609.20558v1)
 
@@ -26,9 +26,9 @@ Use Node.js 24 or newer.
 npm ci
 npm run lint
 npm run audit:security
-SITE_URL=https://cgchrfchscyrh.github.io BASE_PATH=/humanoid_roofing_webpage npm run build
-BASE_PATH=/humanoid_roofing_webpage npm run preview -- --host 127.0.0.1 --port 4512
-TEST_URL=http://127.0.0.1:4512/humanoid_roofing_webpage CHROME_PATH=/usr/bin/google-chrome npm run test:a11y
+SITE_URL=https://cgchrfchscyrh.github.io BASE_PATH=/humanoid_roofing npm run build
+BASE_PATH=/humanoid_roofing npm run preview -- --host 127.0.0.1 --port 4512
+TEST_URL=http://127.0.0.1:4512/humanoid_roofing CHROME_PATH=/usr/bin/google-chrome npm run test:a11y
 ```
 
 Use the actual preview URL if the server selects a different port. CI installs Playwright Chromium and can omit `CHROME_PATH`. The check covers five routes, WCAG 2.1 A/AA axe rules, keyboard and native media controls, automatic playback, persistent pause, reduced motion, data saving, buffering cancellation, full-frame presentation, structured tables, text spacing, 320-pixel reflow, and no-JavaScript access. See [ACCESSIBILITY.md](ACCESSIBILITY.md) for remaining limits; automated results are not ADA/WCAG certification.

@@ -1,5 +1,9 @@
 # Accessibility review — 18 October 2026
 
+## New site address — 9 November 2026
+
+At the author's request, the repository was renamed from `humanoid_roofing_webpage` to `humanoid_roofing`, so the site moved to https://cgchrfchscyrh.github.io/humanoid_roofing/. Links to the old repository redirect on GitHub; the old Pages address does not redirect on its own.
+
 ## Roofer-specific Demanding figure — 9 November 2026
 
 At the author's request, the Demanding tile now cites a roofer-specific shortage instead of an all-craft construction figure: 41% of single-family home builders reported a serious or some shortage of roofing subcontractors in the NAHB/Wells Fargo Housing Market Index special questions for September 2026 (415 respondents). The Dangerous tile now says "full-time-equivalent", matching the BLS wording. At the author's request, the Florida hurricane section and its three tiles were then removed. The remaining figures were re-checked against their sources on this date: O*NET roofers work context (73% repetitive motions, 97% outdoors in all weather), and the BLS 2024 fatal injury chart (48.7 versus 3.3). The Physical tests bubble now says "on a slope"; the full descriptions still name the laboratory foam wedge.

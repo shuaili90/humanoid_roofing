@@ -1,5 +1,5 @@
 {
-  "id": "humanoid_roofing_webpage",
+  "id": "humanoid_roofing",
   "wordmark": "Humanoid Roofer",
   "shortTitle": "Balance is only half the task.",
   "title": "Learning Slope-Adaptive Whole-Body Locomotion for Humanoid Robots in Roofing Construction",
@@ -19,10 +19,10 @@
     }
   ],
   "affiliations": [],
-  "repo": "https://github.com/cgchrfchscyrh/humanoid_roofing_webpage",
+  "repo": "https://github.com/cgchrfchscyrh/humanoid_roofing",
   "repoLabel": "Website source",
   "repoNote": "Source for this research webpage, extracted figures, and transcribed result tables. This repository is not the robot training implementation.",
-  "siteRepo": "https://github.com/cgchrfchscyrh/humanoid_roofing_webpage",
+  "siteRepo": "https://github.com/cgchrfchscyrh/humanoid_roofing",
   "paperUrl": "https://arxiv.org/pdf/2609.20558",
   "htmlPaper": "https://arxiv.org/html/2609.20558v1",
   "pdfUrl": "https://arxiv.org/pdf/2609.20558",

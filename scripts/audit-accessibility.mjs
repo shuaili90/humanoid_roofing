@@ -13,7 +13,7 @@ const clipManifest = JSON.parse(
 );
 const clipByFile = new Map(clipManifest.clips.map((clip) => [clip.file, clip]));
 const base = (
-  process.env.TEST_URL || "http://127.0.0.1:4512/humanoid_roofing_webpage"
+  process.env.TEST_URL || "http://127.0.0.1:4512/humanoid_roofing"
 ).replace(/\/$/, "");
 const browser = await chromium.launch({
   headless: true,
