@@ -2416,7 +2416,6 @@ html {
 
 /* Evidence tiles. */
 .evidence-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
-#florida .evidence-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .evidence-tile { display: flex; flex-direction: column; min-width: 0; padding: 16px; border: 1px solid #d0d0d0; border-radius: 8px; background: #fff; }
 .evidence-tile h3 { margin: 0 0 6px; color: #454545; font-size: 15px; font-weight: 500; }
 .evidence-tile .evidence-value { margin: 0 0 6px; color: #171717; font-size: 28px; font-weight: 600; line-height: 1.1; letter-spacing: -.02em; }
@@ -2437,13 +2436,13 @@ html {
 .citation-links a { color: #202020; text-decoration: underline; }
 
 @media (max-width: 900px) {
-  .evidence-grid, #florida .evidence-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .evidence-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 768px) {
   .hero-film { min-height: 0; aspect-ratio: 16 / 9; }
 }
 @media (max-width: 340px) {
-  .evidence-grid, #florida .evidence-grid { grid-template-columns: minmax(0, 1fr); }
+  .evidence-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
 /* Opening pair: the roofer on the left, the robot on the right, one height. */

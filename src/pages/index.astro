@@ -14,17 +14,6 @@ const pairs = clips.clips.filter((clip) => clip.section === "results");
 <Layout title={stories.roof.headline} bare>
   <Hero />
   <div class="container visual-home">
-    <section class="section evidence-section" id="florida" aria-labelledby="florida-title">
-      <h2 id="florida-title">Hurricanes leave Florida with thousands of damaged roofs.</h2>
-      <div class="evidence-grid">
-        {evidence.florida.map(tile => <article class="evidence-tile">
-          <h3>{tile.label}</h3>
-          <p class="evidence-value">{tile.value}</p>
-          <p class="evidence-text">{tile.text}</p>
-          <a href={tile.source} aria-label={`Source for ${tile.label}: ${tile.sourceName}`}>Source ↗</a>
-        </article>)}
-      </div>
-    </section>
     <section class="section evidence-section" id="four-d" aria-labelledby="four-d-title">
       <h2 id="four-d-title">Roofing is a 4D task: dull, dirty, dangerous, and demanding.</h2>
       <div class="evidence-grid">
@@ -59,7 +48,7 @@ const pairs = clips.clips.filter((clip) => clip.section === "results");
         </p>
         <p class="method-bubble method-bubble-robot">
           <span class="method-badge"><span class="sr-only">Figure panel </span>4</span>
-          <strong>Physical tests.</strong> Uphill walking, nailgun positioning, hammering, and bending on a foam wedge, with a safety hoist attached.
+          <strong>Physical tests.</strong> Uphill walking, nailgun positioning, hammering, and bending on a slope, with a safety hoist attached.
         </p>
       </div>
     </section>

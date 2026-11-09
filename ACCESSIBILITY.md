@@ -2,7 +2,7 @@
 
 ## Roofer-specific Demanding figure — 9 November 2026
 
-At the author's request, the Demanding tile now cites a roofer-specific shortage instead of an all-craft construction figure: 41% of single-family home builders reported a serious or some shortage of roofing subcontractors in the NAHB/Wells Fargo Housing Market Index special questions for September 2026 (415 respondents). The Dangerous tile now says "full-time-equivalent", matching the BLS wording. All seven figures on the homepage were re-checked against their sources on this date: NHC's Ian report ($109.5 billion in Florida), USACE releases for Ian (more than 20,250 blue roofs) and Milton (8,296), O*NET roofers work context (73% repetitive motions, 97% outdoors in all weather), and the BLS 2024 fatal injury chart (48.7 versus 3.3).
+At the author's request, the Demanding tile now cites a roofer-specific shortage instead of an all-craft construction figure: 41% of single-family home builders reported a serious or some shortage of roofing subcontractors in the NAHB/Wells Fargo Housing Market Index special questions for September 2026 (415 respondents). The Dangerous tile now says "full-time-equivalent", matching the BLS wording. At the author's request, the Florida hurricane section and its three tiles were then removed. The remaining figures were re-checked against their sources on this date: O*NET roofers work context (73% repetitive motions, 97% outdoors in all weather), and the BLS 2024 fatal injury chart (48.7 versus 3.3). The Physical tests bubble now says "on a slope"; the full descriptions still name the laboratory foam wedge.
 
 ## Shorter labels and compact citation — 4 November 2026
 

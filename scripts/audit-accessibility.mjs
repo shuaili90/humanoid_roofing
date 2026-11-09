@@ -316,10 +316,10 @@ try {
         "Accessibility and media credits stay linked from the homepage",
       );
       check(
-        (await page.locator("#florida .evidence-tile").count()) === 3 &&
+        (await page.locator("#florida").count()) === 0 &&
           (await page.locator("#four-d .evidence-tile").count()) === 4 &&
-          (await page.locator(".evidence-tile a[href^='https://']").count()) === 7,
-        "Seven evidence tiles each link to a source",
+          (await page.locator(".evidence-tile a[href^='https://']").count()) === 4,
+        "Four 4D evidence tiles each link to a source; the hurricane section is removed",
       );
       check(
         (await page.locator("#four-d .evidence-tile h3").allInnerTexts()).join() ===
@@ -520,7 +520,7 @@ try {
               ".visual-home > section > h2, .visual-home > section > .section-heading > h2, .visual-home > section > .vision-heading > h2",
             )
             .allTextContents(),
-        ) === JSON.stringify(["Hurricanes leave Florida with thousands of damaged roofs.", "Roofing is a 4D task: dull, dirty, dangerous, and demanding.", "We teach humanoid robots to perform roofing tasks through human demonstrations.", "A real humanoid reproduces roofing motions on a slope.", "Citation"]),
+        ) === JSON.stringify(["Roofing is a 4D task: dull, dirty, dangerous, and demanding.", "We teach humanoid robots to perform roofing tasks through human demonstrations.", "A real humanoid reproduces roofing motions on a slope.", "Citation"]),
         "Page order is the evidence, the method, the results, and the citation",
       );
       await page
